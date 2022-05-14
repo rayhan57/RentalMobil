@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rent Car</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .gray {
+      height: 700px;
+      background: lightgray;
+    }
+
+    .kotak {
+      max-width: 500px;
+      height: 700px;
+      box-shadow: 0px 0px 5px black;
+      margin-top: 5rem;
+    }
+
+    .btn {
+      width: 200px;
+      height: 50px;
+      border-radius: 30px;
+    }
+
+    .btn:hover {
+      opacity: 0.5;
+    }
+
+    .title {
+      margin-top: 5rem;
+    }
+
+    .gambar {
+      position: relative;
+      top: -20rem;
+      left: 35rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .gambar {
+        position: static;
+      }
+      img {
+        width: 350px;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="kotak">
+              <div class="container-fluid bg-white p-4" style="height: 400px">
+                <div class="row fw-bold fs-4 pb-4">Rent Car</div>
+                <div class="row">
+                  Kami menyediakan rental mobil dengan berbagai jenis mobil
+                  seperti Toyota Avanza, Mitsubishi Xpander, Honda Brio, Toyota
+                  Agya, dan Kijang Innova. Jika anda ingin berlibur tapi tidak
+                  punya mobil, kami siap untuk membantu anda.
+                </div>
+                <div class="row pt-4">
+                  <a href="login.php"
+                    ><button class="btn btn-dark">Pesan Sekarang</button></a
+                  >
+                </div>
+              </div>
+              <div class="container-fluid bg-dark" style="height: 300px">
+                <div class="row text-white pt-5 ps-3">
+                  <ul>
+                    <li>Harga Terjangkau.</li>
+                    <li>Banyak Mobil Pilihan.</li>
+                    <li>Mobil Sangat Terawat .</li>
+                    <li>Tim yang Profesional.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 px-4">
+            <div class="title">
+              <div class="row pb-3 fs-4">
+                Rental Mudah, Harga Terjangaku, Mobil Terawat
+              </div>
+              <div class="row pb-5">
+                Ingin Menyewa mobil? Kami akan membantu memilih kendaraan yang
+                sesuai dengan kebutuhanmu. Kami juga memiliki sopir yang akan
+                membantumu untuk yang tidak ribet nyetir berjam-jam dalam
+                perjalanan.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="gambar">
+              <img src="img/bg.png" width="500px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
